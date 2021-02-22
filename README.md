@@ -11,7 +11,7 @@ Purposes:
 
 The engine compiles with /std:c++17, but attempting to compile with /std:c++latest leads to error C2666 from disambiguity with operator overloads involving the way class FName attempts to handle any combination of string formats and enums.
 
-I suspect this is easily solved by simplifying the interface to use std::string_view in 90% of the places explicit `const StringType*` variations are being passed, but there are so damn many overloads it will take considerable effort to test that theory. Considering that UE5 is soon to be released, the incentive to explore this issue further is non-existent.
+I suspect this is easily solved by simplifying the interface to use std::string_view in 90% of the places explicit `const StringType*` variations are being passed, but there are so damn many overloads it will take considerable effort to test that theory. Considering that UE5 is soon to be released, the incentive to explore this issue further is: `non-existent`.
 
 TL;DR in *.Build.cs for classes inheriting from ModuleRules:
 
