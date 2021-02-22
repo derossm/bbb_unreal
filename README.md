@@ -1,4 +1,4 @@
-# bbb_unreal
+# Codename BBB UNREAL
 
 This is the code bits of a UE4 project, sans most of the compile generated files and non-code assets.
 
@@ -7,7 +7,7 @@ Purposes:
 - creating a class usable inside the UE4 Editor
 - creating a plugin (C++)
 
-# notes about UE4
+# UE4 Notes
 
 The engine compiles with /std:c++17, but attempting to compile with /std:c++latest leads to error C2666 from disambiguity with operator overloads involving the way class FName attempts to handle any combination of string formats and enums.
 
