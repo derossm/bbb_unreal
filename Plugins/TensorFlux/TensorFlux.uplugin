@@ -1,0 +1,24 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "0.0.1",
+	"FriendlyName": "TensorFlux",
+	"Description": "",
+	"Category": "AI",
+	"CreatedBy": "Mason DeRoss",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "TensorFlux",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}
