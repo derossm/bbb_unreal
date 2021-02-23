@@ -4,6 +4,9 @@
 
 #define LOCTEXT_NAMESPACE "FTensorFluxModule"
 
+#define PY_SSIZE_T_CLEAN
+#include <Python.h>
+
 void FTensorFluxModule::StartupModule()
 {
 	// This code will execute after your module is loaded into memory; the exact timing is specified in the .uplugin file per-module
