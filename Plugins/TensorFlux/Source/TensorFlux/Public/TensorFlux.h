@@ -2,9 +2,6 @@
 
 #pragma once
 
-#include <concepts>
-#include <bit>
-
 #include "CoreMinimal.h"
 #include "Modules/ModuleManager.h"
 
@@ -12,7 +9,7 @@ class FTensorFluxModule : public IModuleInterface
 {
 public:
 
-	/** IModuleInterface implementation */
+	// IModuleInterface implementation
 	virtual void StartupModule() override;
 	virtual void ShutdownModule() override;
 };
